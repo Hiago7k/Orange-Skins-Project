@@ -18,4 +18,12 @@ internal class Skins
     public string? Id { get;}
     [JsonPropertyName("category")]
     public string? Categoria { get;}
+
+
+
+    public void ExibirSkins() 
+    {
+        Console.WriteLine($"Skins...");
+        Console.WriteLine($"Nome {NomeDaSkin} | categoria {Categoria}");
+    }
 }
